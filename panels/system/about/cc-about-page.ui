@@ -17,8 +17,8 @@
                 <child>
                   <object class="AdwClamp">
                     <property name="orientation">vertical</property>
-                    <property name="maximum-size">300</property>
-                    <property name="tightening-threshold">300</property>
+                    <property name="maximum-size">192</property>
+                    <property name="tightening-threshold">192</property>
                     <property name="child">
                       <object class="GtkPicture" id="os_logo">
                         <property name="can-shrink">False</property>
@@ -55,15 +55,6 @@
                     <property name="activatable">False</property>
                     <property name="title" translatable="yes"
                               comments="Translators: this field contains the distro name and version">Operating System</property>
-                  </object>
-                </child>
-
-                <!-- Desktop Name -->
-                <child>
-                  <object class="CcListRow" id="desktop_name_row">
-                    <property name="activatable">False</property>
-                    <property name="title" translatable="yes"
-                              comments="Translators: this field contains the distro name and version">Desktop</property>
                   </object>
                 </child>
 
