@@ -136,7 +136,7 @@ setup_os_logo (CcAboutPage *self)
 
   dark = use_dark_theme (self);
   if (logo_name == NULL)
-    logo_name = g_strdup ("gnome-logo");
+    logo_name = g_strdup ("lingmo");
 
   array = g_ptr_array_new_with_free_func (g_free);
   if (dark)

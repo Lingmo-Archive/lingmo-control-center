@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <template class="CcUpdatePage" parent="AdwNavigationPage">
+    <property name="title" translatable="yes">System Update</property>
+    <property name="tag">update</property>
+    <property name="child">
+      <object class="AdwToolbarView">
+        <child type="top">
+          <object class="AdwHeaderBar"/>
+        </child>
+
+        <property name="content">
+          <object class="AdwPreferencesPage">
+            <child>
+              <object class="AdwPreferencesGroup">
+
+                <!-- <child>
+                  <object class="AdwClamp">
+                    <property name="orientation">vertical</property>
+                    <property name="maximum-size">300</property>
+                    <property name="tightening-threshold">300</property>
+                    <property name="child">
+                      <object class="GtkPicture" id="os_logo">
+                        <property name="can-shrink">False</property>
+                        <property name="content-fit">scale-down</property>
+                        <property name="alternative-text" translatable="yes">System Logo</property>
+                      </object>
+                    </property>
+                  </object>
+                </child> -->
+
+              </object>
+            </child>
+
+              </object>
+            </child>
+          </object>
+        </property>
+      </object>
+    </property>
+  </template>
+</interface>

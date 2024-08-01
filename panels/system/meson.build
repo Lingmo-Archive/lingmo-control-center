@@ -31,6 +31,7 @@ sources = files(
   'about/cc-system-details-window.c',
   'about/cc-info-entry.c',
   'about/info-cleanup.c',
+  'update/cc-update-page.c',
   'datetime/cc-datetime-page.c',
   'datetime/cc-tz-item.c',
   'datetime/cc-tz-dialog.c',
@@ -148,6 +149,7 @@ cflags += [
 ]
 
 subdir('about')
+subdir('update')
 subdir('datetime')
 subdir('region')
 subdir('remote-desktop')
